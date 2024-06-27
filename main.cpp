@@ -5,14 +5,14 @@ using namespace std;
 int main()
 {
     cout << "Enter A and B: ";
-    int a, b;
+    double a, b;
     cin >> a >> b;
     cout << "A + B = " << a + b << '\n'
      << "A - B = " << a - b << '\n'
      << "A * B = " << a * b << '\n'
      << "A / B = " << a / b << '\n';
 
-    int max = (a > b) ? a : b;
+    double max = (a > b) ? a : b;
     cout << "MAX: " << max << '\n';
 
     int min = (a < b) ? a : b;
