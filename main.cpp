@@ -14,4 +14,8 @@ int main()
 
     int max = (a > b) ? a : b;
     cout << "MAX: " << max << '\n';
+
+    int min = (a < b) ? a : b;
+    cout << "MIN: " << min << '\n';
+
 }
